@@ -1,0 +1,132 @@
+#nav-bar
+{
+    position: sticky;
+    top : 0;
+    z-index: 10;
+}
+.navbar-nav li 
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color:#2b1055;
+}
+.nav-bar{
+    background:#2b1055;
+}
+
+
+
+.card {
+    
+    float: left;
+    
+    padding: 10px 3px;
+    border:#2b1055;
+    width: 100x;
+    height:  100px;
+    /*setting width for each and every card element as well as -10px for removing the margin width for 5 elements*/
+    width: 100%;
+    align-items: center;
+    color: black;
+    }
+    
+    
+    /*first element*/
+    
+    .container .card:first-child {
+    margin-left: 0;
+    }
+    
+    
+    /*last element of the first row*/
+    
+    .container .card:nth-child(5n) {
+    margin-right: 0;
+    }
+    
+    
+    /*first-element of the 2nd row*/
+    
+    .container .card:nth-child(5n+1) {
+    margin-left: 0;
+    }
+    
+    
+    /*last element*/
+    
+    .container .card:last-child {
+    margin-right: 0;
+    }
+    
+
+    .card {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+        background-color:#2b1055;
+        transition: 0.3s;
+     }
+     body {
+        background-color:#2b1055;
+      }
+.button_z {
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color:#2b1055 ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #2b1055;
+    color: white;
+    font-weight: 500;
+    padding: 10px 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+  
+      }
+    
+.button_nav {
+    background-color: #2b1055;
+    color: white;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+.btn-login {
+    background-color: #2b1055;
+    color: white;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+  }
+
+  .btn-login:hover {
+    background-color: #4c1d73;
+  }
